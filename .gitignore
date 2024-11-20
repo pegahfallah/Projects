@@ -10,6 +10,8 @@ __pycache__/
 
 *.csv
 
+test.json
+
 # Distribution / packaging
 .Python
 build/
