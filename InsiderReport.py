@@ -3,6 +3,7 @@ import json
 import os
 from dotenv import load_dotenv
 from datetime import datetime
+import pandas as pd 
 
 # Load environment variables
 load_dotenv()
@@ -111,3 +112,5 @@ IN_details_df = pd.DataFrame(details_data)
 IN_isp_df = pd.DataFrame(isp_data)
 IN_summary_df = pd.DataFrame(summary_data)
 IN_link_activity_df = pd.DataFrame(link_activity_data)
+
+print(IN_summary_df)
